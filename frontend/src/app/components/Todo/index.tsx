@@ -17,7 +17,7 @@ const Todo = () => {
     fetchTodo();
   }, []);
 
-  const fetchTodo = async () => {
+  const fetchTodo = async (): Promise<void> => {
     try {
       setLoading(true);
       const _todos = await getTodos();
@@ -29,10 +29,11 @@ const Todo = () => {
     }
   };
 
-  const addTodo = async () => {
+  const addTodo = async (): Promise<void> => {
     try {
       if (!newTodoData?.title || !newTodoData.description) {
-        return toast.error("Both title and description are required!");
+        toast.error("Both title and description are required!");
+        return;
       }
       setLoading(true);
       await saveTodo(newTodoData.title, newTodoData.description);
@@ -45,11 +46,12 @@ const Todo = () => {
     }
   };
 
-  const deleteTodoFn = async (todoId: string) => {
+  const deleteTodoFn = async (todoId: string): Promise<void> => {
     try {
       setLoading(true);
       if (!todoId) {
-        return toast.error("Todo Id is required!");
+        toast.error("Todo Id is required!");
+        return;
       }
       await deleteTodo(todoId);
       toast.success("Todo was deleted successfully");
