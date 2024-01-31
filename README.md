@@ -3,7 +3,7 @@
 ## Overview
 This is a simple to-do list application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with TypeScript and Next.js. The application allows users to create, view, update, and delete tasks.
 
-Demo :earth_asia: https://conference-management-sliit.herokuapp.com
+Demo :earth_asia: https://mern-todo-app-texn.vercel.app/
 
 # Features
 1. Create New Tasks:
