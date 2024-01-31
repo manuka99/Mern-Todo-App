@@ -91,7 +91,7 @@ yarn start
 ```
 This will start your Next.js server, and it should now be accessible at the specified port.
 
-![no todos](https://github.com/manukayasas99/Mern-Todo-App/blob/master/images/1-no-todos.png?raw=true)
-![add todos](https://github.com/manukayasas99/Mern-Todo-App/blob/master/images/2-add-todo.png?raw=true)
-![update todos](https://github.com/manukayasas99/Mern-Todo-App/blob/master/images/3-update-todo.png?raw=true)
-![no todos](https://github.com/manukayasas99/Mern-Todo-App/blob/master/images/4-delete-todo.png?raw=true)
+![no todos](https://github.com/manuka99/Mern-Todo-App/blob/master/images/1-no-todos.png?raw=true)
+![add todos](https://github.com/manuka99/Mern-Todo-App/blob/master/images/2-add-todo.png?raw=true)
+![update todos](https://github.com/manuka99/Mern-Todo-App/blob/master/images/3-update-todo.png?raw=true)
+![no todos](https://github.com/manuka99/Mern-Todo-App/blob/master/images/4-delete-todo.png?raw=true)
