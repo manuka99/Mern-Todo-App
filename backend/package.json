@@ -6,7 +6,8 @@
     "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "yarn ts.check && yarn build && yarn add-build && git commit -a -m 'chore: deployment' && git push"
   },
   "license": "MIT",
   "devDependencies": {
