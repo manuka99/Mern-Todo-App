@@ -1,6 +1,5 @@
 import { ITodo } from "../../types/todo";
 import Todo from "../../models/todo";
-import { ObjectId } from "mongoose";
 
 const fetchAllTodos = async (): Promise<ITodo[]> => {
   const todos: ITodo[] = await Todo.find();
