@@ -14,8 +14,8 @@ const TodoItem = ({ data, deleteTodo, completeTodo }: TodoItem) => {
     <div className="flex w-full min-h-[80px] items-center justify-between bg-gray-800 p-4 rounded-md gap-2">
       <div className="max-w-[80%]">
         <p
-          className={`capitalize text-lg md:text-xl font-bold text-yellow-500 truncate ${
-            isCompleted && "line-through text-gray-400"
+          className={`capitalize text-lg md:text-xl font-bold truncate ${
+            isCompleted ? "line-through text-gray-400" : "text-yellow-500"
           }`}
         >
           {data.title}
